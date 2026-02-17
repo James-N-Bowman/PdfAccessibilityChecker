@@ -5,7 +5,7 @@
 class PDFAccessibilityChecker:
     def __init__(self):
         try:
-            pdf_file = open("src/resources/CheckerPDFInput.pdf", 'rb')
+            pdf_file = open("256.pdf", 'rb')
             input_stream = pdf_file.read()
             pdf_file.close()
             
